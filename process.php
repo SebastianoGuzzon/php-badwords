@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   // recupera i dati inviati tramite POST
@@ -18,5 +16,3 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   echo "<br>Lunghezza: " . strlen($censored_paragraph);
 }
 ?>
-
-</html>
